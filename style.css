@@ -1,0 +1,32 @@
+body
+{
+    background-image: repeating-radial-gradient(white, rgb(12, 6, 112) 10%, rgb(0, 212, 255) 15%);
+}
+
+h1
+{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.998), rgb(0, 0, 0) , rgb(255, 255, 255));
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: cursive;
+    color: aliceblue;
+}
+#show_sketch
+{
+    float: right;
+}
+
+p
+{
+    font-size: 30px;
+    padding: 15px;
+    color: rgb(0, 238, 255);
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 37px white;
+}
